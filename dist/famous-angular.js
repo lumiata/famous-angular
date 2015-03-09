@@ -15,6 +15,7 @@ var ngFameApp = angular.module('famous.angular', []);
  * @description
  * This provider will keep a reference on the complete Famo.us library and provide a few useful functions.
  */
+var famous = require('famous');
 ngFameApp.provider('$famous', function() {
   // hash for storing modules
   var _modules = {
