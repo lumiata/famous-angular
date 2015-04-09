@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "angular": "1.3.8",
-    "famous": "0.3.4",
+    "famous": "git+https://git@github.com/lumiata/famous.git",
     "famous-angular-bower": "https://code.famo.us/famous-angular/bower/famous-angular-bower.tar.gz?version=0.5.0"
   },
   "devDependencies": {
